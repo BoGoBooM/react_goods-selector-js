@@ -32,7 +32,6 @@ export const App = () => {
           />
         )}
       </h1>
-
       <table className="table">
         <tbody>
           {goods.map(product => (
@@ -64,7 +63,6 @@ export const App = () => {
                   </button>
                 )}
               </td>
-
               <td data-cy="GoodTitle" className="is-vcentered">
                 {product}
               </td>
